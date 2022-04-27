@@ -1,0 +1,48 @@
+//Flexbox partial for the layout of the website
+//single column article, horizontal navigation, header, and footer
+
+.flexbox {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  @extend .flexbox;
+  background: rgb(36,66,85);
+  background: linear-gradient(0deg, rgba(36,66,85,1) 0%, rgba(156,162,63,1) 50%, rgba(36,66,85,1) 100%);
+}
+
+header {
+  @extend .flexbox;
+  position: fixed;
+  top: 0;
+  width: $nine;
+  padding: $no-padding;
+  background: $dark-blue;
+}
+
+li {
+  list-style-type: none;
+  padding: $container-padding;
+}
+
+article {
+  @extend .flexbox;
+  width: $seven-five;
+  padding: $container-padding;
+  background: $light-green;
+}
+
+footer {
+  @extend .flexbox;
+  width: $nine;
+  padding: $container-padding;
+  height: 10vh;
+  background: $dark-blue;
+}
+
+image {
+  width: $five;
+}

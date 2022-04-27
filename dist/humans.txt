@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Isabella MacDonald> -- SASS, Design, Layout -- <isma8011@colorado.edu>
+
+# THANKS
+
+    <David Schaal for this class!>
+    <HTML5 Boilerplate for the brunt of the template, W3Schools for assorted references>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, HTML5 Boilerplate
+    Normalize.css
+    SASS
+    Node.js

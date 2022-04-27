@@ -6,8 +6,8 @@ This repository is a project based on a custom version of [HTML5 Boilerplate](ht
 
 ## Features
 
-* Tone.js
-* CSS and SCSS
+* Tone.js use
+* CSS styling
 * Based on my own [Custom Boilerplate](https://github.com/isma8011/customboilerplate)
 
 ## Documentation

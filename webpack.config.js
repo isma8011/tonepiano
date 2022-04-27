@@ -6,17 +6,7 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
-  module: {
-    rules: [
-      {
-        test: /\.scss$/,
-        use: [
-
-          "style-loader", // 3. injects css into DOM
-          "css-loader", // 2.turns css into commonjs
-          "sass-loader", // 1.turns sass into css
-        ],
-      },
-    ],
-  },
+devServer: {
+  static: './dist',
+},
 };

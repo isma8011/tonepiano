@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+  body {
+    background: rgb(157,183,209);
+    background: radial-gradient(circle, rgba(157,183,209,1) 0%, rgba(15,14,31,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    in-height: 100vh;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 0px;
+    background: #0f0e1f;
+    z-index: 999;
+  }
+
+  article {
+    margin-top: 100px;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 50vw;
+    padding: 10px;
+    background-color: #9db7d1;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    background: #0f0e1f;
+}
+
+img {
+  margin-top: 5px;
+  width: 35vw;
+  height: 25vh;
+}
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+ ul .key {
+     position: relative;
+     width: 60px;
+     height: 180px;
+     border: 1px solid black;
+     border-right: none;
+     background: #e8f4ff;
+     border-radius: 5px;
+     box-shadow: 0px 3px 5px #666;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     padding-bottom: 10px;
+     font-weight: bold;
+}
+ ul .key:last-child {
+     border-right: 1px solid black;
+}
+ ul .black-key {
+     position: absolute;
+     top: -1px;
+     left: 37.5px;
+     width: 45px;
+     height: 120px;
+     background: #0f0e1f;
+     border-radius: 5px;
+     box-shadow: 0px 3px 5px #666;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     padding-bottom: 10px;
+     color: #e8f4ff;
+}
+
+/*Code provided by W3 Schools*/
+/*Adds a tooltip for the copy to clipboard button, and confirmation of click*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  font-family: Garamond;
+  color: white;
+  font-style: bold;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Garamond;
+  color: white;
+  font-style: bold;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-family: Garamond;
+  color: white;
+  font-style: bold;
+  font-size: 25px;
+}
+
+h4 {
+  text-align: center;
+  font-family: Garamond;
+  color: white;
+  font-style: bold;
+  font-size: 20px;
+}
+
+h5 {
+  text-align: center;
+  font-family: Garamond;
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+}
+
+h6 {
+  text-align: center;
+  font-family: Garamond;
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+a {
+  font-family: Helvetica;
+  color: #b6adff;
+}
+
+a:visited {
+  font-family: Helvetica;
+  color: #ffcfad;
+}
